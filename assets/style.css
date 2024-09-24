@@ -1,0 +1,70 @@
+/* assets/style.css */
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: #F7F7F7;
+}
+
+.header {
+    background-color: #222222;
+    height: 218px;
+    padding: 16px 0 0 0;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.orange {
+    color: #ea580a;
+}
+
+.header-description {
+    color: #CFCFCF;
+    margin: 4px auto;
+    text-align: center;
+}
+
+.histogram {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    height: 100vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 32px;
+}
+
+.menu {
+    height: 112px;
+    width: 912px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: -4% auto 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    align-items: center;
+}
+
+.dropdown {
+    flex: 1;
+    margin: 0 2%;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+.dropdown-title {
+    color: #ea580a;
+    margin-bottom: 6%;
+    font-weight: bold;
+}
